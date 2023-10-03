@@ -1,9 +1,9 @@
 [web_servers]
 192.168.56.105
-192.168.56.108
+192.168.56.108 ansible_python_interpreter=/usr/bin/python
 
 [db_servers]
-192.168.56.108
+192.168.56.108 ansible_python_interpreter=/usr/bin/python
 192.168.56.106
 
 [file_servers]
