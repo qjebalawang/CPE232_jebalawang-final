@@ -24,7 +24,7 @@
 - hosts: workstations
   become: true
   roles:
-    - workstations
+    - name:  workstations
 
 - hosts: web_servers
   become: true
