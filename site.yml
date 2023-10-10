@@ -19,7 +19,7 @@
 - hosts: all
   become: true
   roles:
-    - base
+    -  base
 
 - hosts: workstations
   become: true
